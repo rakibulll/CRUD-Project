@@ -20,7 +20,7 @@ if ($_GET['err'] == 'empty') {
 }
 ?>
 
-<form method='post' action='register_new_user.php' >
+<form method='post' action='register_new_person.php' >
     Role: <br><select name="role">
                 <option value="user" <?php if ($_GET['role'] == 'user') {
                     echo 'selected';
