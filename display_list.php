@@ -62,9 +62,7 @@ foreach ($pdo->query($sql) as $row) {
         ') ' .
         $row['fname'] .
         " " .
-        $row['lname'] .
-        " - " .
-        $row['email'];
+        $row['lname'];
     $str .= '<br>';
     echo $str;
 }
