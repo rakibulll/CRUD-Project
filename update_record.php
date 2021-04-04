@@ -82,7 +82,7 @@ if (
         $id
     ));
     # 4. update the message in the database
-    echo "<p>Your info has been updated</p><br>";
+    echo "<p>Updated</p><br>";
     echo "<a href='display_list.php'>Back to list</a>";
     include_once "layout_footer.php";
 }
