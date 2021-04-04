@@ -119,7 +119,7 @@ if (
                 $state,
                 $zip_code
             ));
-            # 4. insert the message into the database
+            # 4. insert the message into the database.
             include_once "layout_header.php";
             echo "<p>User Added</p><br>";
             echo "<a href='login.php'>Back to login</a>";
